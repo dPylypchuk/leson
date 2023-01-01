@@ -6,6 +6,11 @@ header{
     height: 100px; 
     background-color:#d2c8ab;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
 .logo{
     width:85px;
 }
@@ -24,8 +29,8 @@ header{
 }
 .disagnBlock{
     height:700px ;
-    padding-left:200px ;
-    padding-top: 120px;
+    padding-left:140px ;
+    padding-top: 80px;
 }
 .disagnTitle{
     font-style:normal ;
@@ -34,11 +39,50 @@ header{
 
     margin-bottom: 45px;
 }
-.disagnText{
+.disagntext{
     width:700px ;
     font-style: normal;
     font-weight: 488;
     font-size: 16px;
     line-height: 23px;
+}
+.Popular{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.SBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 
+    margin-top:40px;
+}
+.SecondBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 200px; 
+
+    box-shadow: 8px 3px 14px -1px rgb(104, 102, 102);
+    border-radius: 10px;
+}
+.SecondBlock>img{
+    position: absolute;
+    width:150px;
+    height:150px;
+}
+.SecondBlock>p{
+    display: none;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 150px;
+}
+.SecondBlock:hover>img{
+    opacity: 25%;
+}
+.SecondBlock:hover>p{
+    display: block;
 }
