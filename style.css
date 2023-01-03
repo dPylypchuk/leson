@@ -14,8 +14,8 @@ main{
 .logo{
     width:85px;
 }
-.nav-active{
-    color: #aca38c;
+.nav{
+    display: flex;
 }
 .nav-iteams{
     margin-right:50px ;
@@ -24,11 +24,35 @@ main{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.1cm;
-
     color: black;
 }
+.nav-iteams>a{
+    font-size: 21px;
+    color: #000000;
+}
+.nav-iteams>a:hover{
+    color: #ffffff;
+}
+.sub-nav{
+    display: none;
+    position: absolute;
+    width: 180px;
+    padding: 10px;
+    background-color: #d9d2bc;
+    border: 1px solid black;
+}
+.sub-iteam{
+    margin-top: 5%;
+}
+.sub-iteam>a{
+    color:#000000 ;
+    font-size: 18px;
+}
+.li>a:hover + ul{
+    display: block;
+}
 .disagnBlock{
-    height:700px ;
+    height:550px ;
     padding-left:140px ;
     padding-top: 80px;
 }
