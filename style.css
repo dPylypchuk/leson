@@ -109,3 +109,12 @@ main{
 .SecondBlock:hover>p{
     display: block;
 }
+.A{
+    order: 80;
+}
+.B{
+    order: 1;
+}
+.C{
+    order: 50;
+}
